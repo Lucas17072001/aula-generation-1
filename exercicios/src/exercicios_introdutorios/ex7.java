@@ -1,4 +1,4 @@
-package exercicios;
+package exercicios_introdutorios;
 
 //ex7
 import java.util.Scanner;

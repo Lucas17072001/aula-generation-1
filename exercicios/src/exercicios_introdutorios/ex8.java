@@ -1,4 +1,4 @@
-package exercicios;
+package exercicios_introdutorios;
 //ex8
 import java.util.Scanner;
 public class ex8 {
@@ -7,8 +7,7 @@ public class ex8 {
 		
 		Scanner ler = new Scanner(System.in);
 		double custo;
-		final double impostos = 0.73;
-		
+				
 		System.out.println("Digite o custo de fábrica do carro: ");
 		custo = ler.nextDouble();
 		
