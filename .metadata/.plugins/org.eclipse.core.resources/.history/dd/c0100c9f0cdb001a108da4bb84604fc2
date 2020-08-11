@@ -1,0 +1,21 @@
+package laços_condicionais;
+import java.util.*;
+public class ex4 {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		double x;
+		
+		System.out.println("Entre com um número");
+		x = ler.nextInt();
+		
+		if(x%2==0)
+		{
+			System.out.println("Este número é par");
+			x = Math.sqrt(x);
+			System.out.println(x);
+		}
+
+	}
+
+}

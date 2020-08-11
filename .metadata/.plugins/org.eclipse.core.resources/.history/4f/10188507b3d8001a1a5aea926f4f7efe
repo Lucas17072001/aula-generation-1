@@ -1,0 +1,22 @@
+package teste;
+
+import java.util.Scanner;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner ler = new Scanner(System.in);
+		int a,b,soma;
+		System.out.println("Valor de A: ");
+		a= ler.nextInt();
+		System.out.println("Valor de B: ");
+		b= ler.nextInt();
+		
+		//System.out.println("Soma: " + soma);
+		
+		System.out.printf("A: %d",a);
+
+	}
+
+}

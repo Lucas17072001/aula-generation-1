@@ -1,0 +1,19 @@
+package loops;
+
+import java.util.Scanner;
+
+public class ex5 {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		int num;
+		
+		do
+		{
+			System.out.println("Digite um número");
+			num = ler.nextInt();
+		}
+		while(num!=0);
+	}
+
+}

@@ -1,0 +1,24 @@
+package teste;
+
+import java.util.Scanner;
+import java.util.StringJoiner;
+
+public class HelloWorld {
+	
+	public static void main (StringJoiner agns[])
+	{
+		Scanner ler = new Scanner(System.in);
+		int a,m,d,soma;
+		System.out.println("Quantos anos você tem? ");
+		a = ler.nextInt();
+		System.out.println("Quantos mês: ");
+		m = ler.nextInt();
+		System.out.println("E quandtos dias: ");
+		d = ler.nextInt();
+		a = a*365;
+		m = m*30;
+		soma = a+m+d;
+		System.out.println(soma);
+	}
+
+}
