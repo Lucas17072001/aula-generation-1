@@ -1,0 +1,21 @@
+package exercicios_revisao;
+
+import java.util.Scanner;
+
+public class ex2 {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		double altura, peso, imc;
+		
+		System.out.println("Qual seu peso?");
+		peso = ler.nextDouble();
+		System.out.println("Qual sua altura?");
+		altura = ler.nextDouble();
+		
+		imc = peso/(altura*altura);
+		
+		System.out.printf("Seu imc é: %2f",imc);
+	}
+
+}
