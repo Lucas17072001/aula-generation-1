@@ -1,0 +1,14 @@
+package exs_poo;
+
+public class Cliente {
+	//declarando atributos da class
+	private String nome;
+	private String sbnome;
+	private int idade;
+	private double altura;
+	
+	
+	//construtor
+	public 
+	
+}
