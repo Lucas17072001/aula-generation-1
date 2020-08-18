@@ -1,0 +1,16 @@
+package exs_polimorfismo_collections;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class collection_loja {
+
+		public static void main(String[] args) {
+			Collection<String> produtos = new ArrayList<>();
+			
+			public void getNomeProduto()
+			{
+				
+			}
+		}
+}

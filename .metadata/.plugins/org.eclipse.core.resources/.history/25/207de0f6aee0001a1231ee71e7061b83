@@ -1,0 +1,20 @@
+package exs_heranca;
+
+public class classe_main {
+
+	public static void main(String[] args) {
+		//Fornecedor joao = new Fornecedor("João", "Rua 9", "999999999", 50, 15);
+		
+		//joao.obterSaldo();
+		
+		//Empregado jonas = new Empregado("Jonas", "rua xx", "555555", 123, 1000, 20);
+		//System.out.println(jonas.calcularSalario());
+		
+		//Pessoa joao = new Administrador("joao", "rua x", "333", 2132);
+		Empregado jonas = new Empregado("jonas", "ruas xasa", "32432", 2, 1000,0);
+		jonas.setImposto();
+		System.out.println(jonas.calcularSalario());
+		
+	}
+
+}

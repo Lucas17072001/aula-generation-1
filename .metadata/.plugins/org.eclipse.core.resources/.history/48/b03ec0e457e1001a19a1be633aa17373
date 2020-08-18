@@ -1,0 +1,32 @@
+package exs_polimorfismo;
+
+public class Cachorro extends Animal {
+	private String latido;
+	
+	
+	
+	public Cachorro(String nome, int idade, String som, String latido) {
+		super(nome, idade, som);
+		this.latido = latido;
+	}
+
+	
+
+	public String getLatido() {
+		return latido;
+	}
+
+
+
+	public void setLatido(String latido) {
+		this.latido = latido;
+	}
+
+
+
+	public String emitirSom(String som)
+	{
+		
+	}
+	
+}

@@ -1,0 +1,24 @@
+package exs_polimorfismo;
+
+public class Cavalo extends Animal {
+	private String relincho;
+	
+	
+
+	public Cavalo(String relincho) {
+		this.relincho = relincho;
+	}
+
+	public String getRelincho() {
+		return relincho;
+	}
+
+	public void setRelincho(String relincho) {
+		this.relincho = relincho;
+	}
+	
+	public String emitirSom(String som)
+	{
+		
+	}
+}

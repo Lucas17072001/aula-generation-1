@@ -2,7 +2,7 @@ package exs_poo;
 
 public class Funcionario {
 		// declarando atributos da class
-		private String nome;
+		protected String nome;
 		private String sbnome;
 		private int idade;
 		private String cargo;

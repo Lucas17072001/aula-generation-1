@@ -1,0 +1,11 @@
+package exs_encapsulamento;
+
+public class classe_main {
+
+	public static void main(String[] args) {
+		Pessoa joao = new Fornecedor("João", "Rua 9", "999999999", 50, 15);
+		
+		
+	}
+
+}
