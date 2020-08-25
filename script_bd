@@ -1,0 +1,43 @@
+create schema db_rh;
+
+use db_rh;
+
+CREATE TABLE `db_rh`.`funcionarios` (
+  `id_funcionarios` BIGINT NOT NULL AUTO_INCREMENT,
+  `nome` VARCHAR(200) NOT NULL,
+  `idade` INT(2) NOT NULL,
+  `tempo_no_setor` INT(2) NOT NULL,
+  `salario` DECIMAL(10,2) NOT NULL,
+  PRIMARY KEY (`id_funcionarios`));
+
+INSERT INTO `db_rh`.`funcionarios`(`nome`,`idade`,`tempo_no_setor`,`salario`)VALUES("João",40,6,5000);   
+INSERT INTO `db_rh`.`funcionarios`(`nome`,`idade`,`tempo_no_setor`,`salario`)VALUES("Antonio",25,2,3000);
+INSERT INTO `db_rh`.`funcionarios`(`nome`,`idade`,`tempo_no_setor`,`salario`)VALUES("Maria",54,5,5000);  
+INSERT INTO `db_rh`.`funcionarios`(`nome`,`idade`,`tempo_no_setor`,`salario`)VALUES("Joana",22,3,3500);  
+INSERT INTO `db_rh`.`funcionarios`(`nome`,`idade`,`tempo_no_setor`,`salario`)VALUES("Kleber",35,2,2500); 
+INSERT INTO `db_rh`.`funcionarios`(`nome`,`idade`,`tempo_no_setor`,`salario`)VALUES("Luana",35,2,2500);  
+INSERT INTO `db_rh`.`funcionarios`(`nome`,`idade`,`tempo_no_setor`,`salario`)VALUES("Luis",35,1,2150);   
+INSERT INTO `db_rh`.`funcionarios`(`nome`,`idade`,`tempo_no_setor`,`salario`)VALUES("Jonas",35,1,2150);  
+INSERT INTO `db_rh`.`funcionarios`(`nome`,`idade`,`tempo_no_setor`,`salario`)VALUES("Paloma",35,1,2150); 
+INSERT INTO `db_rh`.`funcionarios`(`nome`,`idade`,`tempo_no_setor`,`salario`)VALUES("Luiza",35,1,2150);  
+INSERT INTO `db_rh`.`funcionarios`(`nome`,`idade`,`tempo_no_setor`,`salario`)VALUES("Bianca",20,1,2150); 
+INSERT INTO `db_rh`.`funcionarios`(`nome`,`idade`,`tempo_no_setor`,`salario`)VALUES("Carla",20,1,2150);  
+INSERT INTO `db_rh`.`funcionarios`(`nome`,`idade`,`tempo_no_setor`,`salario`)VALUES("Pedro",18,1,2150);  
+INSERT INTO `db_rh`.`funcionarios`(`nome`,`idade`,`tempo_no_setor`,`salario`)VALUES("Bira",60,8,6000);   
+INSERT INTO `db_rh`.`funcionarios`(`nome`,`idade`,`tempo_no_setor`,`salario`)VALUES("Paulo",29,3,3500);
+
+
+select * from funcionarios where salario > 2000;
+
+select * from funcionarios where salario < 2000;
+
+
+UPDATE `db_rh`.`funcionarios` 
+SET 
+    `nome` = "Luiz",
+    `idade` = 25,
+    `tempo_no_setor` = 2,
+    `salario` = 2500
+WHERE
+    `id_funcionarios` = 7;
+
