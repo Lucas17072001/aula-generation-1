@@ -18,9 +18,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.redeSocial.caraLivro.model.Usuario;
 import com.redeSocial.caraLivro.model.UsuarioLogin;
+import com.redeSocial.caraLivro.repository.UsuarioRepository;
 import com.redeSocial.caraLivro.service.UsuarioService;
 
-import generation.org.blogPessoal.repository.UsuarioRepository;
 
 @RestController
 @RequestMapping("/usuario")
